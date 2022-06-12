@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<script src="http://code.jquery.com/jquery-3.5.1.js"></script>
+</head>
+<body>
+<h1>Trabajando com un JSON y un formulario</h1>
+<form action="sabado.php" method="post">
+<table>
+<tr><td>id:</td>
+<td><input type="text" name="id"></td>
+</tr>
+<tr><td>Nombre:</td>
+<td><input type="text" name="nombre"></td>
+</tr>
+<tr><td>Edad:</td>
+<td><input type="text" name="edad"></td>
+</tr>
+<tr><td>Identidad Secreta:</td>
+<td><input type="text" name="identidadsecreta"></td>
+</tr>
+<tr><td>Poderes:</td>
+<td><input type="text" name="poderes"></td>
+</tr>
+<tr><td>Imagen:</td>
+<td><input type="text" name="image"></td>
+</tr>
+<tr><td><input type="submit" name="submit" value="Agregar"></td></tr>
+   </table>
+</form>
+<table id="table">
+    <tr>
+    <th>id</th>
+    <th>Nombre</th>
+    <th>Edad</th>
+    <th>Identidad Secreta</th>
+    <th>poderes</th>
+    <th>Imagen</th>
+  </tr>
+</thead>
+<tbody id="data-output">
+</tbody>
+</table>
+<script src="4b.js"></script>
+</body>
+</html>
